@@ -1,0 +1,12 @@
+:root {
+    --rich-black: #080708;
+    --brightBlue: #027BCE;
+    --dodgetBlue: #0496FF;
+    --blueSapphire: #3E6680;
+    --blueJeans: #4BB3FD;
+}
+
+html, body{
+    margin:0;
+    background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
+}

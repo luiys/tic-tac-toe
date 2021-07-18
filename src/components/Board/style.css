@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.board{
+    box-sizing: border-box;
+    width: 230px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.square:nth-child(1){
+    border-top: none;
+    border-left: none;
+}
+
+.square:nth-child(2){
+    border-top: none;
+}
+
+.square:nth-child(3){
+    border-top: none;
+    border-right: none;
+}
+
+.square:nth-child(4){
+    border-left: none;
+}
+
+.square:nth-child(6){
+    border-right: none;
+}
+
+.square:nth-child(7){
+    border-left: none;
+    border-bottom: none;
+}
+
+.square:nth-child(8){
+    border-bottom: none;
+}
+
+.square:nth-child(9){
+    border-right: none;
+    border-bottom: none;
+}
+
+.square{
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--brightBlue);
+    color: var(--brightBlue);
+    text-shadow: 0 0 10px var(--brightBlue);
+}
+
+.result{
+    margin: 10px 0px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--blueJeans);
+    text-shadow: 0 0 10px var(--brightBlue);
+}
+
+header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+header h1{
+    margin-right: 20px !important; 
+    font-family: Lato;
+    color: var(--blueJeans);
+    margin: 0;
+    font-size: 40px;
+    text-shadow: 0 0 10px var(--dodgetBlue);
+}
+
+header img{
+    width: 40px;
+    height: 40px;
+}
+
+.restart button{
+    background-color: rgba(0, 0, 0, 0.0);
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    font-size: 20px;
+    color: var(--brightBlue);
+    text-shadow: 0 0 10px var(--brightBlue);
+}
+
+.restart button:hover{
+    cursor: pointer;
+    background-color: var(--brightBlue);
+    color: #0d1d31;
+    box-shadow: 0 0 10px var(--brightBlue);
+}
